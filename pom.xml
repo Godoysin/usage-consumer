@@ -11,7 +11,7 @@
 	<groupId>com.luxoft</groupId>
 	<artifactId>practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>practice</name>
+	<name>usage-consumer</name>
 	<description>Practice with Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

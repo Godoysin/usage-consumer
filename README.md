@@ -1,6 +1,6 @@
 # usage-consumer
 
-This is a Java Spring Boot practice project to mix knowledge from different sources. In this case, it is a kafka consumer to read from a topic and safe into MySql database.
+This is a **Java Spring Boot** practice project to mix knowledge from different sources. In this case, it is a Kafka consumer to read from a topic and safe into MySql database.
 
 I'm using next **docker-compose.yaml** to initialize the environment:
 ```yaml
