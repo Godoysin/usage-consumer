@@ -1,4 +1,4 @@
-package com.luxoft.consumer.model;
+package com.project.consumer.model;
 
 import jakarta.persistence.*;
 
@@ -12,7 +12,7 @@ public class Track {
     private String user;
     private String method;
     private String resource;
-    private String timestamp;
+    private Long timestamp;
 
     private Track() {
     }
@@ -23,7 +23,7 @@ public class Track {
         setResource(resource);
     }
 
-    public Track(String user, String method, String resource, String timestamp) {
+    public Track(String user, String method, String resource, Long timestamp) {
         setUser(user);
         setMethod(method);
         setResource(resource);
@@ -62,11 +62,11 @@ public class Track {
         this.resource = resource;
     }
 
-    public String getTimestamp() {
+    public Long getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(String timestamp) {
+    public void setTimestamp(Long timestamp) {
         this.timestamp = timestamp;
     }
 }

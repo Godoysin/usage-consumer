@@ -1,12 +1,12 @@
 {
   "type": "record",
-  "namespace": "com.luxoft.messages.avro",
+  "namespace": "com.project.messages.avro",
   "name": "TrackAvro",
   "version": "1",
   "fields": [
     { "name": "user", "type": "string", "doc": "User name" },
     { "name": "method", "type": "string", "doc": "HTTP method used" },
     { "name": "resource", "type": "string", "doc": "Requested resource" },
-    { "name": "timestamp", "type": {"type": "string", "logicalType": "timestamp-millis"}, "doc": "Request timestamp" }
+    { "name": "timestamp", "type": {"type": "long", "logicalType": "timestamp-millis"}, "doc": "Request timestamp" }
   ]
 }

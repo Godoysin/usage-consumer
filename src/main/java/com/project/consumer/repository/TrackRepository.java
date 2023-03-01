@@ -1,6 +1,6 @@
-package com.luxoft.consumer.repository;
+package com.project.consumer.repository;
 
-import com.luxoft.consumer.model.Track;
+import com.project.consumer.model.Track;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
